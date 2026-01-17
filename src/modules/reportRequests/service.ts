@@ -1,4 +1,4 @@
-import { Prisma, ReportRequest, ReportStatus } from "@prisma/client";
+import { Prisma, ReportRequest } from "@prisma/client";
 import { ApiError } from "../../lib/errors";
 import { sha256, stableStringify } from "../../lib/hash";
 import { reportQueue } from "../../lib/queue";
